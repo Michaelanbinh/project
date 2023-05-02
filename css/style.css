@@ -581,5 +581,12 @@ form label:hover{
   display: block;
 }
 
+.modal .title{
+  font-size: 25px
+}
 
+.modal .close-button{
+  margin-left: 400px;
+  
+}
 
