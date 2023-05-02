@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour & Travel</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="./js/main.js"></script>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-hiking"></i> Food.com</a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">home</a>
+            <a href="#category">About</a>
+            <a href="#packages">Dishes</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div> 
+            <div id="search-btn" class="fas fa-search"></div>
+          
+        </div>
+    </header>
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+   
+        <div class="wrapper">
+           
+                <div class="box" style="background: url(images/home1.png) no-repeat;">
+                <div class="content">
+                    <a href="#category" class="btn1">get started</a>
+                </div>
+                </div>  
+        </div>
+    </section>
+
+    <section class="category" id="category">
+
+        <h1 class="heading">About Us</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/category-1.jpg" alt="">
+                <h3>CEO - Chicharito Lê</h3>
+                <button data-target="#modal" class="btn">Open Modal</button>
+                    <div class="modal" id="modal">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                           <ul>
+                                <li>Bachelor's Degree in Restaurant Management American Culinary Institute in Hyde Park, New York</li>
+                                <li>Master degree  in University College of Hospitality Management and Culinary Arts of Sant Pol de Mar</li>
+                                <li>Director of F&B department at J.W Marriott Hotel (Hanoi)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>                
+            </div>
+    
+            <div class="box">
+                <img src="images/category-2.jpg" alt="">
+                <h3>Italian chef - Trương Anh Ngọc</h3>
+                <button data-target="#modal1" class="btn">Open Modal</button>
+                    <div class="modal" id="modal1">
+                        <div class="modal-header">
+                            <div class="title">Example Modal</div>
+                            <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Graduated with a Bachelor of Culinary Arts from Le Cordon Bleu Academy</li>
+                                <li>Champion of Italian Masterchef 2011</li>
+                                <li>Judge of Vietnam's Masterchef season 2</li>
+                                <li>Working experience for 8 years at Le Calandre restaurant</li>
+                                <li>3 years working experience at Dal Pescatore restaurant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+    
+            <div class="box">
+                <img src="images/category-3.jpg" alt="">
+                <h3>Vietnamese chef - Stella Nguyễn</h3>
+                <button data-target="#modal2" class="btn">Open Modal</button>
+                    <div class="modal" id="modal2">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Graduated with a BA in Culinary Arts from Kendall College</li>
+                                <li>Champion of the British Masterchef season 5 (2015)</li>
+                                <li>5 years experience working at Vietnamese restaurant Red Lantern (Surry Hills, Sydney)</li>
+                                <li>Author of the book about Hanoi cuisine "A glimpse of Hanoi"</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+
+            <div class="box">
+                <img src="images/category-1.jpg" alt="">
+                <h3>Chinese chef - Qing Cho Dian</h3>
+                <button data-target="#modal3" class="btn">Open Modal</button>
+                    <div class="modal" id="modal3">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Champion of the American Masterchef season 4 (2013</li>
+                                <li>Gold Medal of the 3rd Beijing International Culinary Competition</li>
+                                <li>3 years working experience at King's Joy restaurant (Beijing, China)</li>
+                                <li>2 years working experience at Lanting Chinese Restaurant (Hangzhou, China)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+    
+            <div class="box">
+                <img src="images/category-2.jpg" alt="">
+                <h3>Korean chef - Park Kang Hyeon</h3>
+                <button data-target="#modal4" class="btn">Open Modal</button>
+                    <div class="modal" id="modal4">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Graduated with a Bachelor of Culinary Arts from Le Cordon Bleu Academy</li>
+                                <li>Runner-up of Kimchi Cook Off Contest 2021</li>
+                                <li>Judge Vietnam “Iron Chef” 2022</li>
+                                <li>Korean restaurant chain owner Hyeon's corner</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+    
+            <div class="box">
+                <img src="images/category-3.jpg" alt="">
+                <h3>Japanese - Naoki Nguyễn</h3>
+                <button data-target="#modal5" class="btn">Open Modal</button>
+                    <div class="modal" id="modal5">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Graduated with a Bachelor of Culinary Arts from Le Cordon Bleu Academy</li>
+                                <li>Runner-up of the American Masterchef eason 4 (2013)</li>
+                                <li>2 years working experience at Sushi Yasuda restaurant (Midtown Manhattan, New York, USA)</li>
+                                <li>Working experience at Hajime restaurant (Tokyo, Japan)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+
+            <div class="box">
+                <img src="images/category-3.jpg" alt="">
+                <h3>Mexican chef - Eden Linh Nguyễn</h3>
+                <button data-target="#modal6" class="btn">Open Modal</button>
+                    <div class="modal" id="modal6">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Champion of Vietnam's Masterchef season 3 (2015)</li>
+                                <li>Judge of Vietnam's Masterchef season 4</li>
+                                <li>Owner of Mexican restaurant chain “Alma Mexicana”</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+
+            <div class="box">
+                <img src="images/category-3.jpg" alt="">
+                <h3>French chef - Moisette Trần</h3>
+                <button data-target="#modal7" class="btn">Open Modal</button>
+                    <div class="modal" id="modal7">
+                        <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Graduated with a Bachelor of Culinary Arts from Le Cordon Bleu Academy</li>
+                                <li>Champion of the French Masterchef 2018</li>
+                                <li>3 years working experience at Epicure restaurant at Le Bristol</li>
+                                <li>Working at J.W Marriott Hotel (Hanoi)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="packages" id="packages">
+
+        <h1 class="heading">popular dishes</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vietnamese</h3>
+                    <p>Vietnamese cuisine is always appreciated as a dish with a high nutritional balance. Nichef will bring healthy Vietnamese dishes, although familiar, you will still have unexpected experiences on your tongue.</p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chinese</h3>
+                    <p>Renowned as one of the most diverse cuisines in the world, the Chinese dishes served by Nichef will take diners from one surprise to another.                                                                </p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Japanese</h3>
+                    <p>Nichef will bring whatever swimming in the water to your table                                                                                                                                                </p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Korean</h3>
+                    <p>Korean cuisine served by Nichef's chefs will bring you surprising sophistication, harmony, and elegance.                                                                                                      </p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Italian</h3>
+                    <p>Nichef will bring you your dream men - HOT, SPICY and ITALIAN                                                                                                                                                 </p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="image">
+                    <img src="images/img6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mexican</h3>
+                    <p>If you want to enjoy the colourful cuisine of Mexico, let Nichef help you awaken your taste buds with the ultimate flavour to immerse yourself in Latin Fest                                                   </p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>French</h3>
+                    <p>Looking for some sweet pastries? Nichef will serve you right away , cutie pie!                                                                                                                                 </p>
+                    <div class="price"></div>
+                    <a href="#contact" class="btn2">explore now</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="contact" id="contact">
+    
+    <div class="wrapper1">
+        <div class="title1">
+          <h1>contact us form</h1>
+        </div>
+        <div class="contact-form">
+            <script src="js/main.js"></script>
+          <div class="input-fields">
+            
+            <input type="text" class="input" placeholder="Name" name="name">
+            <input type="email" class="input" placeholder="Email Address" name="email" pattern=".+@gmail\.com">
+            <input type="phone" class="input" placeholder="Phone" name="phone">
+          </div>
+          <div class="msg">
+            <textarea placeholder="Message" name="message"></textarea>
+            <button onclick="AlertFunction()">Send</button>
+            </form>
+          </div>
+        </div>
+        </div> 
+    
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">home</a>    
+                <a href="#packages">packages</a>
+                <a href="#query">query</a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#contact">ask questions</a>
+                <a href="#">terms of use</a>
+                <a href="#">privacy policy</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:+084357716103"> <i class="fas fa-phone"></i> +084357716103 </a>
+                <a href="mailto: hoangkhoaan8@gmail.com"> <i class="fas fa-envelope"></i> hoangkhoaan8@gmail.com </a>
+                <a href="#"> <i class="fas fa-map"></i> HaNoi - Vietnam </a>
+            </div>
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#>  <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-github"></i> github </a>
+            </div>
+        </div>
+        <div class="credit">created by <span>Michaelanbinh</span> | all rights reserved!</div>
+    </section>
+    <!-- footer section ends -->
+    <script src="js/script.js"></script>
+</body>
+</html>
