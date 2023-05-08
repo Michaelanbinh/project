@@ -599,3 +599,7 @@ form label:hover{
   font-size: 20px;
   
 }
+
+.picture {
+  display:none
+}
